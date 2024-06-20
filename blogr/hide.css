@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@media (max-width: 460px) {
+  
+  .bar {
+    display: block;
+    color: white;
+    font-size: 20px;
+  }
+
+  #link {
+    display: none;
+  }
+  #btn {
+    margin: 0px auto 15px;
+  }
+
+  .links ul li {
+    display: none;
+  }
+ 
+  h3 {
+    margin: 25px auto;
+  }
+  .head {
+    padding: 25px 35px;
+    text-transform: capitalize;
+    background-color: hsl(356, 100%, 66%);
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    background-image: url(images/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 40px;
+  }
+
+  .links ul {
+    list-style: none;
+    display: flex;
+  }
+  .links ul li {
+    margin: 0px 10px;
+    text-transform: capitalize;
+    padding: 5px;
+    font-size: 15px;
+  }
+  .social {
+    margin: 10px auto;
+    text-align: center;
+  }
+  .social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .social ul li {
+    text-transform: capitalize;
+    font-size: 15px;
+    margin: 0px 10px;
+  }
+
+  #view {
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+  }
+  #view_x {
+    border: 1px solid white;
+    width: fit-content;
+    padding: 5px 10px;
+    margin: 20px auto;
+  }
+p{
+  line-height: 25px;
+}
+  .people {
+    height: 400px;
+    background-color: hsl(356, 100%, 66%);
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 40%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .people_x {
+    height: 650px;
+    background-color:  hsl(237, 17%, 21%);
+    background-repeat: no-repeat;
+    border-top-right-radius: 20%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 30px;
+  }
+  .text {
+    z-index: 100000;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    color: white;
+    position: absolute;
+  }
+  .text p {
+    margin: 15px auto;
+    color: rgba(255, 255, 255, 0.502);
+  }
+  .text .btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+  }
+  .btn a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+  }
+  .btn a:first-child {
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+  }
+  .illustration {
+    background-image: url(images/bg-pattern-intro-mobile.svg);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    scale: 2;
+    opacity: 0.5;
+    z-index: 2;
+  }
+  .mobile{
+    background-image: url(images/illustration-phones.svg);
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    z-index: 1000;
+    left: 50%;
+   
+  }
+  .illustration_x {
+    background-image: url(images/bg-pattern-circles.svg);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    scale: 2;
+    opacity: 0.5;
+    z-index: 2;
+  }
+  .description {
+    height: max-content;
+    text-align: center;
+    color: white;
+  }
+  .description:last-of-type {
+    height: 80vh;
+    text-align: center;
+    color: white;
+  }
+
+  .left {
+    height: 30%;
+    background-size: contain;
+    background-image: url(images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+  }
+  .right {
+    height: 50%;
+    background-size: contain;
+    background-image: url(images/bg-pattern-intro-right-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+
+  .title {
+    padding: 20px;
+  }
+
+  .container {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .container h1 {
+    margin: 20px;
+  }
+  .cards > div {
+    margin: 40px auto;
+    padding: 15px;
+  }
+  .img{
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  #img_1{
+    background-image: url(images/illustration-editor-mobile.svg);
+  }
+  #img_2{
+    background-image: url(images/illustration-laptop-mobile.svg);
+  }
+
+}
+
+@media (min-width: 460px) {
+  body {
+    display: none;
+  }
+}
